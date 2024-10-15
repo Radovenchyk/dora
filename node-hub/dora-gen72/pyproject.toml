@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dora-gen72"
+version = "0.1"
+authors = ["dora-rs team"]
+description = "Dora Node client for gen72 robotic arms."
+readme = "README.md"
+
+packages = [{ include = "dora_gen72" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dora-rs = "^0.3.6"
+
+[tool.poetry.scripts]
+dora-gen72 = "dora_gen72.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
