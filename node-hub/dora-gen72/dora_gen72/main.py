@@ -8,7 +8,7 @@ import time
 from .robotic_arm_package.robotic_arm import *
 import sys
 
-ROBOT_IP = os.getenv("ROBOT_IP")
+ROBOT_IP = os.getenv("ROBOT_IP", "192.168.1.18")
 
 assert ROBOT_IP is not None, "ROBOT_IP environment variable must be set"
 
