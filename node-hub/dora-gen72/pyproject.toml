@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dora-gen72"
-version = "0.1"
+version = "0.2.0"
 authors = ["dora-rs team"]
 description = "Dora Node client for gen72 robotic arms."
 readme = "README.md"
