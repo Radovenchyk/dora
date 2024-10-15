@@ -5,7 +5,7 @@ from dora import Node
 import json
 import os
 import time
-from robotic_arm_package.robotic_arm import *
+from .robotic_arm_package.robotic_arm import *
 import sys
 
 ROBOT_IP = os.getenv("ROBOT_IP")
